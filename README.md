@@ -1,26 +1,27 @@
-# Packet-Analyzer
+# Packet Analyzer
 
 This is a simple Python script that serves as a basic network packet analyzer. It listens for incoming network traffic, decodes Ethernet frames, and extracts information about the source and destination MAC addresses, as well as the Ethernet protocol. It also includes functions to unpack IPv4 packets, ICMP packets, TCP segments, and UDP segments when available.
 
-Prerequisites
+## Prerequisites
+
 Before running this script, make sure you have the following prerequisites:
 
-Python 3.x installed
-The socket library, which is part of the Python standard library
-Usage
-Clone the repository or download the script to your local machine.
-bash
-Copy code
-git clone <repository-url>
-Open a terminal and navigate to the directory where the script is located.
+- Python 3.x installed
+- The `socket` library, which is part of the Python standard library
 
-Run the script using Python:
+## Usage
 
-bash
-Copy code
-python network_packet_analyzer.py
-The script will start listening for incoming network traffic and display information about Ethernet frames as they are received.
-Features
+1. Clone the repository or download the script to your local machine.
+
+2. Open a terminal and navigate to the directory where the script is located.
+
+3. Run the script using Python:
+
+```bash
+python network_packet_analyzer.py '''
+
+
+# Features
 Ethernet Frame Analysis
 The script decodes Ethernet frames and displays the following information for each received frame:
 
@@ -70,3 +71,5 @@ Author
 If you find this project useful or have any suggestions for improvements, please feel free to contribute or provide feedback.
 
 Happy packet analyzing! 🕵️‍♂️🔍
+
+
