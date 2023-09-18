@@ -21,56 +21,69 @@ Before running this script, make sure you have the following prerequisites:
 packet_analyzer.py
 ```
 
-
 # Features
-Ethernet Frame Analysis
-The script decodes Ethernet frames and displays the following information for each received frame:
 
-Destination MAC address
-Source MAC address
-Ethernet protocol
-IPv4 Packet Analysis
-If the Ethernet frame contains an IPv4 packet, the script will extract and display the following IPv4 information:
+## Ethernet Frame Analysis
 
-Version
-Header length
-Time to Live (TTL)
-Protocol
-Source IP address
-Destination IP address
-ICMP Packet Analysis
-If the Ethernet frame contains an ICMP packet, the script will extract and display the following ICMP information:
+The script provides detailed analysis of Ethernet frames, offering the following information for each received frame:
 
-ICMP type
-ICMP code
-Checksum
-TCP Segment Analysis
-If the Ethernet frame contains a TCP segment, the script will extract and display the following TCP information:
+- Destination MAC address
+- Source MAC address
+- Ethernet protocol
 
-Source port
-Destination port
-Sequence number
-Acknowledgment number
-TCP flags (URG, ACK, PSH, RST, SYN, FIN)
-UDP Segment Analysis
-If the Ethernet frame contains a UDP segment, the script will extract and display the following UDP information:
+## IPv4 Packet Analysis
 
-Source port
-Destination port
-Size
-Customization
-You can modify the script to perform additional analysis or to suit your specific needs. For example, you can add more detailed packet processing or logging functionality.
+If the Ethernet frame contains an IPv4 packet, the script extracts and presents the following IPv4 details:
 
-Disclaimer
-This script is intended for educational purposes and basic network analysis. Please use it responsibly and in compliance with all applicable laws and regulations.
+- Version
+- Header length
+- Time to Live (TTL)
+- Protocol
+- Source IP address
+- Destination IP address
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## ICMP Packet Analysis
 
-Author
-[Your Name]
-If you find this project useful or have any suggestions for improvements, please feel free to contribute or provide feedback.
+In the case of an ICMP packet within the Ethernet frame, the script extracts and displays the following ICMP attributes:
 
-Happy packet analyzing! 🕵️‍♂️🔍
+- ICMP type
+- ICMP code
+- Checksum
+
+## TCP Segment Analysis
+
+For Ethernet frames containing a TCP segment, the script provides in-depth TCP analysis, including:
+
+- Source port
+- Destination port
+- Sequence number
+- Acknowledgment number
+- TCP flags (URG, ACK, PSH, RST, SYN, FIN)
+
+## UDP Segment Analysis
+
+When the Ethernet frame includes a UDP segment, the script extracts and reveals the following UDP details:
+
+- Source port
+- Destination port
+- Size
+
+## Customization
+
+Feel free to customize the script to suit your specific needs. You can add additional analysis or enhance packet processing and logging functionality as required.
+
+## Disclaimer
+
+This script is intended solely for educational purposes and basic network analysis. Please use it responsibly and ensure compliance with all applicable laws and regulations.
+
+## License
+
+This project is open-source and licensed under the MIT License. Refer to the LICENSE file for detailed licensing information.
+
+## Author
+
+This project was authored by Isa Khan. If you find this project useful or have any suggestions for improvements, please don't hesitate to contribute or provide feedback.
+
+Enjoy exploring and analyzing packets! 🕵️‍♂️🔍
 
 
