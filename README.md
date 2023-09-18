@@ -17,8 +17,9 @@ Before running this script, make sure you have the following prerequisites:
 
 3. Run the script using Python:
 
-~~
-python network_packet_analyzer.py ~~~
+
+python network_packet_analyzer.py
+
 
 
 # Features
