@@ -1,4 +1,4 @@
-# Packet Analyzer
+# PyProwler 🕵️‍♂️🔍
 
 This is a simple Python script that serves as a basic network packet analyzer. It listens for incoming network traffic, decodes Ethernet frames, and extracts information about the source and destination MAC addresses, as well as the Ethernet protocol. It also includes functions to unpack IPv4 packets, ICMP packets, TCP segments, and UDP segments when available.
 
@@ -68,21 +68,13 @@ When the Ethernet frame includes a UDP segment, the script extracts and reveals 
 - Destination port
 - Size
 
-## Customization
-
-Feel free to customize the script to suit your specific needs. You can add additional analysis or enhance packet processing and logging functionality as required.
-
 ## Disclaimer
 
 This script is intended solely for educational purposes and basic network analysis. Please use it responsibly and ensure compliance with all applicable laws and regulations.
 
-## License
+## Reach Out
 
-This project is open-source and licensed under the MIT License. Refer to the LICENSE file for detailed licensing information.
-
-## Author
-
-This project was authored by Isa Khan. If you find this project useful or have any suggestions for improvements, please don't hesitate to contribute or provide feedback.
+If you find this project useful or have any suggestions for improvements, please don't hesitate to contribute or provide feedback.
 
 Enjoy exploring and analyzing packets! 🕵️‍♂️🔍
 
