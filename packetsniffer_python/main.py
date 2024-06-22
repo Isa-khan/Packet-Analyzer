@@ -1,5 +1,7 @@
 import socket 
 import textwrap 
+
+# Added some comments so my code is easier to follow along
  
 def main():
      conn = socket.socket(SOCKET.AF_PACKET, socket.SOCK_RAW, socket.ntohs(3)) 
@@ -9,11 +11,6 @@ def main():
          dest_mac, src_mac, eth_proto, data = ethernet_frame(raw_data)
          print('\n Ethernet Frame: ')
          print('Destinaton {}, Source: {}, Protocol: {}'.format(dest_mac, src_mac, eth_proto))
-
-
-
-
-
 
 # First, I am going to unpack the ethernet frame 
 
